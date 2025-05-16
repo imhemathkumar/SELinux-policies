@@ -1,0 +1,7 @@
+# Define the interface to allow external modules to interact with 'myservice' module
+policy_module(myservice, 1.0)
+
+# Declare allowed operations for other modules to interact with 'myservice' policy
+interface(`myservice_read_file') {
+    allow $1 var_log_t:file { read };
+}

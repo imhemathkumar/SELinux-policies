@@ -1,0 +1,295 @@
+----
+time->Fri May 16 17:03:28 2025
+type=PROCTITLE msg=audit(1747395208.821:228): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395208.821:228): arch=c000003e syscall=280 success=yes exit=0 a0=3 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395208.821:228): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:28 2025
+type=PROCTITLE msg=audit(1747395208.821:229): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395208.821:229): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc28f7a0 a1=1a4 a2=55d09175b86f a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395208.821:229): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:28 2025
+type=PROCTITLE msg=audit(1747395208.822:230): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395208.822:230): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc297ae0 a1=1a4 a2=55d5cc28c a3=20000000 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395208.822:230): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.240:281): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.240:281): arch=c000003e syscall=280 success=yes exit=0 a0=3 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.240:281): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.240:282): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.240:282): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc28f8c0 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.240:282): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.241:283): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.241:283): arch=c000003e syscall=93 success=yes exit=0 a0=5 a1=0 a2=0 a3=1000 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.241:283): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.241:284): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.241:284): arch=c000003e syscall=91 success=yes exit=0 a0=5 a1=1a4 a2=0 a3=1000 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.241:284): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.243:285): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.243:285): arch=c000003e syscall=280 success=yes exit=0 a0=5 a1=0 a2=7ffffbe9deb0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.243:285): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.243:286): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.243:286): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc56d0d0 a1=1a4 a2=55d0911ed5d5 a3=55d5cc33cef0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.243:286): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.243:287): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.243:287): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc56d0d0 a1=1a4 a2=55d0911e9901 a3=63 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.243:287): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.243:288): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.243:288): arch=c000003e syscall=280 success=yes exit=0 a0=ffffff9c a1=55d5cc56d0d0 a2=7ffffbe9ddb0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.243:288): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.521:290): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.521:290): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.521:290): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.522:291): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.522:291): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc569a50 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.522:291): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.541:292): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.541:292): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.541:292): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.541:293): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.541:293): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc5ed790 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.541:293): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.574:294): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.574:294): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.574:294): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.574:295): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.574:295): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc5e24c0 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.574:295): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.708:296): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.708:296): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.708:296): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.708:297): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.708:297): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc5d2850 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.708:297): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.851:299): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.851:299): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.851:299): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.855:300): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.855:300): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc5fa3e0 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.855:300): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.883:301): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.883:301): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.883:301): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.888:302): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.888:302): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc6665a0 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.888:302): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.949:303): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.949:303): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.949:303): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:53 2025
+type=PROCTITLE msg=audit(1747395233.950:304): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395233.950:304): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc663ad0 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395233.950:304): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.022:305): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.022:305): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.022:305): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.022:306): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.022:306): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc663da0 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.022:306): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.150:307): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.150:307): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.150:307): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.154:308): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.154:308): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc2fcf90 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.154:308): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.170:309): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.170:309): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.170:309): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.174:310): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.174:310): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc6730a0 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.174:310): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.275:311): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.275:311): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.275:311): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.281:312): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.281:312): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc6709f0 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.281:312): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.344:313): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.344:313): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.344:313): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.348:314): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.348:314): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc677ae0 a1=1a4 a2=55d0913ba0a4 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.348:314): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.463:315): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.463:315): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.463:315): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.467:316): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.467:316): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc677ae0 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.467:316): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.522:317): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.522:317): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.522:317): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.528:318): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.528:318): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc67e410 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.528:318): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.632:319): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.632:319): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.632:319): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.638:320): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.638:320): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc6830a0 a1=1a4 a2=55d09134e7d1 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.638:320): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.659:321): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.659:321): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.659:321): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.663:322): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.663:322): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc682150 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.663:322): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.755:323): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.755:323): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.755:323): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.757:324): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.757:324): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc683950 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.757:324): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.832:325): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.832:325): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.832:325): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.834:326): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.834:326): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc68ae60 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.834:326): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.839:327): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.839:327): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.839:327): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.840:328): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.840:328): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc65a260 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.840:328): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.888:329): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.888:329): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.888:329): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.890:330): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.890:330): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc2f2850 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.890:330): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.895:331): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.895:331): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.895:331): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.895:332): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.895:332): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc2f2af0 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.895:332): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.931:333): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.931:333): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.931:333): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.934:334): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.934:334): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc2e2df0 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.934:334): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.968:335): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.968:335): arch=c000003e syscall=280 success=yes exit=0 a0=4 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.968:335): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.970:336): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.970:336): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc2bc7c0 a1=1a4 a2=0 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.970:336): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.971:337): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.971:337): arch=c000003e syscall=280 success=yes exit=0 a0=3 a1=0 a2=7ffffbe9de70 a3=0 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.971:337): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0
+----
+time->Fri May 16 17:03:54 2025
+type=PROCTITLE msg=audit(1747395234.972:338): proctitle=2F7573722F62696E2F6D616E6462002D71
+type=SYSCALL msg=audit(1747395234.972:338): arch=c000003e syscall=90 success=yes exit=0 a0=55d5cc2c6a10 a1=1a4 a2=55d5cc2b2 a3=20 items=0 ppid=7992 pid=7993 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mandb" exe="/usr/bin/mandb" subj=system_u:system_r:mandb_t:s0 key=(null)
+type=AVC msg=audit(1747395234.972:338): avc:  denied  { fowner } for  pid=7993 comm="mandb" capability=3  scontext=system_u:system_r:mandb_t:s0 tcontext=system_u:system_r:mandb_t:s0 tclass=capability permissive=0

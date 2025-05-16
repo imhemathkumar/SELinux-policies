@@ -1,0 +1,10 @@
+module myservice 1.0;
+
+require {
+    type httpd_t;
+    type var_log_t;
+    class file { read write open };
+}
+
+# Allow httpd to write to /var/log/mylog.log
+allow httpd_t var_log_t:file { read write open };
